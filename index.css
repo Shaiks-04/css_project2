@@ -228,7 +228,8 @@ input[type=checkbox] {
 
     }
     .conatiner{
-        width:100%;
+        width:320px;
+        margin-bottom: 15px;
     }
     .plus{
         position: absolute;
@@ -272,8 +273,8 @@ input[type=checkbox] {
 }
 .conatiner1{
     position:fixed;
-    margin-left: 1%;
-    width:49%;
+    margin-left: 2%;
+    width:45%;
 }
 }
 
