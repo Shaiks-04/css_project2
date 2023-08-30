@@ -89,9 +89,10 @@ font-size:35px;
 }
 .flex{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin-top: 100px;
+    flex-flow: wrap;
+    width: 60vw;
+    margin: 100px auto 0;
+    text-align: inherit;
 }
 .flex1{
     display: flex;
@@ -225,6 +226,7 @@ input[type=checkbox] {
     }
     .flex{
         margin-top: 15%;
+        width: 90vw;
 
     }
     .conatiner{
@@ -252,6 +254,11 @@ input[type=checkbox] {
     top:35%;
     left:2%;
     }
+    .next1{
+        position: fixed;
+        top: 35%;
+        left: 3%;
+    }
     .plus1{
         position: absolute;
         top:12%;
@@ -260,7 +267,7 @@ input[type=checkbox] {
     .p3{
         position: absolute;
         top:13%;
-        left:22%;
+        left:23%;
     }
     .b3{
         font-size:25px;
@@ -287,6 +294,22 @@ input[type=checkbox] {
     top:90px;
     left:65vw;
     
+}
+.blur1{
+    backdrop-filter: opacity(10%);
+}
+#plus1{
+    position: absolute;
+    top: 12vh;
+}
+#p3{
+    position: absolute;
+    top:13.5vh;
+    left: 13vh;
+}
+#plus2{
+    position: absolute;
+    top: 12vh;
 }
 }
 
