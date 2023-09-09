@@ -88,11 +88,12 @@ font-size:35px;
     margin-left: -2px;
 }
 .flex{
-    display: flex;
-    flex-flow: wrap;
-    width: 60vw;
-    margin: 100px auto 0;
-    text-align: inherit;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;    
+    row-gap: 25px;
+    column-gap: 25px;
+    margin-top: 100px;
 }
 .flex1{
     display: flex;
